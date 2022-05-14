@@ -1,0 +1,19 @@
+.container {
+  max-inline-size: 969px;
+  margin-inline: auto;
+}
+
+.l-recipe-content {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .l-recipe-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 150px;
+  }
+}
